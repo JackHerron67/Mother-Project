@@ -1,0 +1,48 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	text-align: center;
+	color: khaki;
+	font-weight: bold;
+	font-size: 40px;
+	font-family: Helvetica, "Times New Roman";
+	background-image: url("/images/pattern.jpg");
+	background-size: auto;
+}
+
+#brushes .section_heading{
+	background-color: mediumspringgreen;
+}
+
+#frames .section_heading{
+	background-color: lightcoral;
+}
+#paint .section_heading{
+	background-color: skyblue;
+}
+
+#paint, #frames, #brushes{
+	font-family: Helvetica, "Times New Roman";
+	margin-bottom: 20px;
+}
+
+.blue{
+	color: blue;
+	font-weight: bold;
+}
+
+.section_heading{
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+}
+.title{
+	margin-top: 20px;
+}
+
+.description{
+	margin-top: 5px;
+}
+
