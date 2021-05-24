@@ -1,0 +1,191 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color:hsla(0,0%,62%,1.00);
+	text-align: center;
+}
+header{
+	height: 170px;
+	margin:0;
+	text-align: center;
+	border-bottom: 3px solid black;
+	width: 100%;
+	background-image: url("../images/background 10.jpeg");
+}
+main{
+	height:auto;
+	background-color: lightgray;
+	background-size: cover;
+	
+	
+}
+#logo{
+	height: 150px;
+	margin: 10px;
+	
+}
+
+#website-container{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+embed{
+	width: 100%;
+	height: 100%;
+	padding: 4.1% 4.1% 31.6%;
+	box-sizing: border-box;
+	opacity: 0.9;
+	
+}
+
+
+#background-image{
+	
+	width: 100%;
+	
+}
+#device{
+	position: relative;
+	width: 80%;
+	margin: 25px auto;
+}
+
+
+#site-link{
+	width:200px;
+	background-color:lightgray;
+	display: flex;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	margin: 10px auto 30px;
+	border: 3px solid hsla(49,100%,29%,1.00);
+}
+#site-link a{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+	color:hsla(49,100%,29%,1.00);
+	font-size: 30px;
+	
+}
+#gallery-heading{
+	display: flex;
+	width: 300px;
+	justify-content: center;
+	align-items: flex-end;
+	margin: 0 auto;
+	border-bottom: 2px solid  hsla(49,100%,29%,1.00);
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	height: 80px
+	
+}
+#about-projects-section{
+	display: flex;
+	flex-flow: row wrap;
+}
+#project-name{
+	display: inline-block;
+	height: 60px;
+	text-align: center;
+	width: 250px;
+	font-size: 50px;
+	margin:5px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	coloer:hsla(49,100%,29%,1.00);
+	
+}
+.arrow{
+	display: inline-block;
+	width: 50px;
+	font-size: 50px;
+	margin:5px;
+	
+	
+	
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height:50px;
+	width: 350px;
+	margin: 10px auto;
+}
+#textbox{
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	
+}
+#description{
+	margin:50px 50px 20px;
+	display: block;
+	max-width: 800px;
+	background-color: white;
+	padding: 15px;
+	height: 200px;
+	border: 2px solid hsla(49,100%,29%,1.00);
+	text-align: justify;
+	overflow: scroll;
+}
+footer{
+	height: 150px;
+	border-top: 3px solid black;
+
+	background-image: url("../images/background 10.jpeg");
+}
+footer img{
+	margin: 10px;
+	height: 100px
+}
+footer h2{
+	margin: 10px;
+}
+footer h3{
+	margin:0;
+}
+footer a{
+	font-size: 30px;
+	margin:0 10px;
+	color: blue;
+	
+	
+}
+@media only screen and (max-width:650px){
+	
+	embed{
+		margin: 0;
+		padding: 0;
+		border: 2px solid hsla(49,100%,29%,1.00);
+		
+	}
+	#background-image{
+		display: none;
+		
+	}
+	#website-container{
+		position: static;
+		margin: 20px;
+		height: 100%;
+		padding: 0;
+	}
+	#device{
+		width: 100%;
+		height: 300px;
+		margin: 25px 0;
+		padding: 0;
+	}
+	#description{
+		margin: 30px;
+	}
+	
+}
+
+
